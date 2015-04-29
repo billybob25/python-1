@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+import colors as c
+
+
+text = '''
+Darth {} looked at his master while his {} breathing filled the room. He
+was told to go to {} evrything on the planet of {}. He got in his {} and
+jumped to hyperspace. Soon before he reached the planet, he dropped out
+of hyperspace and was attacked by Rebel {}. He {} them off and continued
+to the planet`s surface. He landed and confronted more opposition,
+slicing it down with his {}. He used the {} to choke another Rebel,
+then {} him aside. He finished off all life on the planet.'''
+
+words = [
+  'name',
+  'adjective',
+  'verb',
+  'silly word',
+  'noun',
+  'noun(plural)',
+  'verb ending in "ed"',
+  'noun',
+  'noun',
+  'verb ending in "ed"',
+  'adjective']
+
+answers = []
+
+for prompt in words:
+  answer = input(prompt + c.red)
+  answers.append(answer)
+
+
+print(answers)
+
+
+
+
+
+
