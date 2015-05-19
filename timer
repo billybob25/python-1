@@ -5,7 +5,8 @@ import colors as c
 
 count = 1
 
-while True:
+wThile True:
     time.sleep(1)
+    print(c.clear)
     print(c.random_color() + str(count) + ' more second') 
     count += 1
