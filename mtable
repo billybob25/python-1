@@ -1,5 +1,17 @@
 #!/usr/bin/env python3
 import colors as c
+print(c.clear + c.red + " Mmmmm,"  + c.blue + "multiplication tables.")
+print("Which number?")
+number = input('> ' + c.yellow)
+print('table for ' + number )
+for multiplier in range(1,13):
+    product = int(number) * multiplier
+    form = '{} x {} = {}'
 
-print(c.clear + c.red + " Mmmmm," + c.blue + "multiplication tables.")
+    print(form.format(number,multiplier,product))
+for subtract in range(12,0,-1):    
+    product = int(number) - subtract
+    
+
+
 

@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+
+import colors as c
+import random
+while True:
+    print(c.yellow + 'nya', end = ' ' )
+

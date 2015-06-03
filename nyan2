@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+import colors as c
+import random
+while True:
+    print(c.random_color() + 'Nyan', end = ' '*random.randint(0,50))
+    """
+    print(c.blue + 'Nyan' + c.magenta + ' Nyan' + c.red + ' Nyan' 
+        + c.cyan + ' Nyan' + c.violet + ' Nyan' + c.yellow + ' Nyan'
+        + c.orange + ' Nyan' , end = ' '*random.randint(0,50))
+    """
+

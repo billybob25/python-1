@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+import random
+import colors as c
+
+print(c.clear)
+print(c.red + '''welcome to magic eight ball
+please enter your question''' + c.reset)
+
+answers = [
+    c.red + 'no' + c.reset,
+    c.yellow + 'no mom' + c.reset,
+    c.green + 'DONT COUNT ON IT' + c.reset,
+    c.blue + 'reply hazy try again' + c.reset,
+    c.orange + 'you are fat' + c.reset,
+    c.red + 'Yes' + c.reset,
+    c.red + c.magenta + 'NO WAY!' + c.reset,
+
+    
+        
+        
+         
+]
+
+while True:
+    question = input(' <')
+    answer = random.choice(answers)
+    print(answer)                                                               
