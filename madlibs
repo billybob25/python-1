@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+import colors as c
+from utils import ask
+print(c.clear)
+print(c.red + 'Welcome to the Awsome Madlib Quiz')
+
+
+text = '''
+I enjoy long, {adj} walks on my ship, getting {edverb} on and I
+fell of and {edverb} to the bottom, I {verb} up and found a {animal}
+sitting on a palm tree,and {verb} on me and we explored the island,
+when i saw a enemy, i {edverb} out my sword and we faught and i got
+killed, then i relised i was alive, so i {verb} up, and did it again,
+and then i won, and i said YOU MUST DIE!!!'''
+
+words = {
+    "adj" : {},
+    "edverb" : {},
+    "edverb" : {},
+    "verb" : {},
+    "animal" : {},
+    "verb" : {},
+    "edverb" : {},
+    "verb" : {}
+}
+
+answers = {}
+
+for key in words:
+    answer = ask("Enter " + key + ": ")

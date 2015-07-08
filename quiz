@@ -2,7 +2,8 @@
 
 import colors as c
 from utils import ask
-import fluffy as quiz
+#import fluffy as quiz
+import minecraft as quiz
 
 print(c.clear)
 print(quiz.intro)
@@ -10,3 +11,6 @@ print(quiz.intro)
 quiz.q1()
 quiz.q2()
 quiz.q3()
+quiz.q4()
+quiz.q5()
+
