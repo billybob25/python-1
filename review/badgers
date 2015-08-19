@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+import colors as c
+import time
+print(c.clear)
+for count in range(11):   
+    print(c.blue + 'badgers')
+    time.sleep(0.4)
+
+for count in range(2):
+    print(c.red + 'Mushroom')
+
+for count in range(3):
+    print(c.yellow + 'snake!')
+
